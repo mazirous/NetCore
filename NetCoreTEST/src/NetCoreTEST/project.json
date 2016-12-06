@@ -58,9 +58,8 @@
       "web.config"
     ]
   },
-
   "scripts": {
-    "prepublish": [ "npm install -g bower", "bower install", "dotnet bundle" ],
+    "prepublish": [ "C:\\Program Files\\nodejs\\node_modules\\.bin\\bower.cmd install", "dotnet bundle" ],
     "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
   }
 }
