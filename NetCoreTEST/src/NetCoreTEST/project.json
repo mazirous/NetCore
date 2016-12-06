@@ -59,7 +59,7 @@
     ]
   },
   "scripts": {
-    "prepublish": [ "C:\\Program Files\\nodejs\\node_modules\\.bin\\bower.cmd install", "dotnet bundle" ],
+    "prepublish": [ "dotnet bundle" ],
     "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
   }
 }
